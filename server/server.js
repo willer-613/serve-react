@@ -22,7 +22,7 @@ const path = require('path');
 const render = require('./render');
 const {JS_BUNDLE_DELAY} = require('./delays');
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4444;
 const app = express();
 
 app.use((req, res, next) => {
